@@ -673,6 +673,7 @@ a:hover {
 //--//-->   ABOUT
 ======================================*/
 
+
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -690,16 +691,35 @@ a:hover {
   color: #4e4e4e;
 }
 
-.skill-mf .progress {
-  background-color: #cde1f8;
-  margin: .5rem 0 1.2rem 0;
-  border-radius: 0;
-  height: .7rem;
+* {
+  box-sizing: border-box;
 }
 
-.skill-mf .progress .progress-bar {
-  height: .7rem;
-  background-color: #0078ff;
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Clearfix (clear floats) */
+.roww::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Clearfix (clear floats) */
+.rowww::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 /*======================================
